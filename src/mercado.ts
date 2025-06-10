@@ -1,4 +1,7 @@
-const produtos = [
+const produtos: {
+    nome: string;
+    preco: number;
+}[] = [
     { nome: 'feijão', preco: 2.5 },
     { nome: 'Banana', preco: 1.8 },
     { nome: 'Leite', preco: 4.2 },
@@ -21,3 +24,4 @@ function listarProdutos(): void {
     }
 }
 listarProdutos();
+
